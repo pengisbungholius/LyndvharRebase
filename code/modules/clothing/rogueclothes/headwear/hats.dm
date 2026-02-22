@@ -139,7 +139,7 @@
 
 /obj/item/clothing/head/roguetown/chaperon/noble
 	name = "noble's chaperon"
-	desc = "A decorated chaperon worn by the more influential members of society."
+	desc = "A decorated chaperon, worn by the more influential members of society."
 	icon_state = "noblechaperon"
 	item_state = "noblechaperon"
 	detail_tag = "_detail"
@@ -163,14 +163,14 @@
 
 /obj/item/clothing/head/roguetown/chaperon/noble/guildmaster
 	name = "Guildmaster's chapereon"
-	desc = "A noble's chaperon made for the guildmaster."
+	desc = "A noble's chaperon, made for the guildmaster."
 	color = "#1b1717ff"
 	detail_color = "#b68e37ff"
 
 /obj/item/clothing/head/roguetown/chaperon/noble/hand
 	name = "hand's chaperon"
-	desc = "A noble's chaperon made for the right hand man. \"Heavy is the head that bears the crown.\""
-	color = CLOTHING_AZURE
+	desc = "A noble's chaperon, made for the ruler's right hand man. \"Heavy is the head that bears the crown.\""
+	color = CLOTHING_BLACK
 	detail_color = CLOTHING_WHITE
 
 /obj/item/clothing/head/roguetown/chaperon/councillor
@@ -265,7 +265,7 @@
 
 /obj/item/clothing/head/roguetown/headband/monk
 	name = "monk's headband"
-	desc = "A winding length of cloth, meticulously lined with heavy leather strips. Errant impacts are thwarted, yet not a degree of vision is impaired; valuable traits, for the Monk who must enlighten their villains with a white-knuckled sermon. </br>'..I kick ass for the Lord!'"
+	desc = "A winding length of cloth, meticulously lined with heavy leather strips. Errant impacts are thwarted, yet not a degree of vision is impaired; valuable traits, for the Monk who must enlighten their opposition with a white-knuckled sermon. </br>'..I kick ass for the Lord!'"
 	icon_state = "headband"
 	color = "#bfb8a9"
 	sewrepair = TRUE
@@ -448,8 +448,7 @@
 /obj/item/clothing/head/roguetown/helmet/tricorn
 	slot_flags = ITEM_SLOT_HEAD
 	name = "tricorn"
-	desc = "A triangular hat with its brim turned in on itself. Quite a new-fangled design, but one gaining popularity \
-	among sailors in particular."
+	desc = "A triangular hat with its brim turned in on itself. Quite a new-fangled design, but one gaining popularity among sailors in particular."
 	body_parts_covered = HEAD|HAIR|EARS|NOSE
 	icon_state = "tricorn"
 	armor = ARMOR_CLOTHING
@@ -465,7 +464,7 @@
 
 /obj/item/clothing/head/roguetown/helmet/tricorn/skull
 	icon_state = "tricorn_skull"
-	desc = "It has a skull sewn onto it. A clear sign of piracy"
+	desc = "A triangular hat with its brim turned in on itself. This one has a skull sewn onto it, a clear sign of piracy or ne'er-do-wells."
 
 /obj/item/clothing/head/roguetown/helmet/tricorn/lucky
 	name = "lucky tricorn"
@@ -475,8 +474,7 @@
 /obj/item/clothing/head/roguetown/helmet/bandana
 	slot_flags = ITEM_SLOT_HEAD
 	name = "bandana"
-	desc = "A simple triangular length of fabric, typically worn tied around the head as decoration, or to constrict \
-	long hair during intensive work."
+	desc = "A simple length of fabric, typically worn tied around the head as decoration, or to constrict long hair during intensive work."
 	body_parts_covered = HEAD|HAIR|EARS|NOSE
 	icon_state = "bandana"
 	armor = ARMOR_CLOTHING
@@ -490,7 +488,7 @@
 
 /obj/item/clothing/head/roguetown/veiled
 	name = "nurse's veil"
-	desc = "A chirurgeon's bonnet, veiled with petal-stuffed linen. The stitchwork is often donned by the likes of wandering plague doctors and clerics; especially, those who're beholden to Pestra and Psydon."
+	desc = "A chirurgeon's bonnet, veiled with petal-stuffed linen. The stitchwork is often donned by the likes of wandering plague doctors and clerics, especially those who are beholden to Pestra and Psydon."
 	icon_state = "veil"
 	item_state = "veil"
 	detail_tag = "_detail"
@@ -538,7 +536,7 @@
 
 /obj/item/clothing/head/roguetown/courtphysician
 	name = "sanguine hat"
-	desc = "A hat for keeping the splattered blood out of your face, for when your trade is required."
+	desc = "A hat for keeping the splattered blood out of your face, for when your trade is required it requires also your sight."
 	icon_state = "dochat1"
 	item_state = "dochat1"
 	detail_tag = "_detail"
@@ -562,7 +560,7 @@
 
 /obj/item/clothing/head/roguetown/courtphysician/female
 	name = "sanguine cap"
-	desc = "A cap for keeping the splattered blood out of your hair, for when your trade is required."
+	desc = "A cap for keeping the splattered blood out of your hair, for when your trade is required it requires also your sight."
 	icon_state = "dochat2"
 	item_state = "dochat2"
 	detail_tag = "_detail"

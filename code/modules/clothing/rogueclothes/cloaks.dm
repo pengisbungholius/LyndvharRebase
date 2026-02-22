@@ -338,7 +338,7 @@
 
 /obj/item/clothing/cloak/tabard/retinue
 	desc = "A tabard with the lord's heraldic colors."
-	color = CLOTHING_AZURE
+	color = CLOTHING_BLACK
 	detail_tag = "_quad"
 	detail_color = CLOTHING_WHITE
 
@@ -501,7 +501,7 @@
 /obj/item/clothing/cloak/tabard/stabard/guard
 	name = "guard tabard"
 	desc = "A tabard with the lord's heraldic colors."
-	color = CLOTHING_AZURE
+	color = CLOTHING_BLACK
 	detail_tag = "_quad"
 	detail_color = CLOTHING_WHITE
 
@@ -540,7 +540,7 @@
 
 /obj/item/clothing/cloak/tabard/stabard/grenzelhoft
 	name = "grenzelhoft mercenary tabard"
-	desc = "A tabard bearing the colors of the Grenzelhoft emperiate mercenary guild."
+	desc = "A tabard bearing the colors of the Grenzelhoft Imperiate mercenary guild."
 	color = CLOTHING_YELLOW
 	detail_color = CLOTHING_RED
 	detail_tag = "_box"
@@ -587,7 +587,7 @@
 
 /obj/item/clothing/cloak/tabard/stabard/surcoat/guard
 	desc = "A surcoat with the lord's heraldic colors."
-	color = CLOTHING_AZURE
+	color = CLOTHING_BLACK
 	detail_tag = "_quad"
 	detail_color = CLOTHING_WHITE
 
@@ -628,7 +628,7 @@
 	inhand_mod = TRUE
 	allowed_race = NON_DWARVEN_RACE_TYPES
 	detail_tag = "_det"
-	detail_color = CLOTHING_AZURE
+	detail_color = CLOTHING_BLACK
 
 /obj/item/clothing/cloak/lordcloak/update_icon()
 	cut_overlays()
@@ -792,7 +792,7 @@
 
 /obj/item/clothing/head/hooded/rainhood
 	name = "hood"
-	desc = "This one will shelter me from the weather and my identity too."
+	desc = "This should shelter oneself from the weather... and other's eyes too."
 	icon_state = "rain_hood"
 	item_state = "rain_hood"
 	slot_flags = ITEM_SLOT_HEAD
@@ -826,7 +826,7 @@
 
 /obj/item/clothing/cloak/raincloak/furcloak/woad
 	name = "Warden's fur cloak"
-	desc = "Usually sewn by the very wardens that wear them, this hue of blue is made to alart denizens of the forest to their presence."
+	desc = "Usually sewn by the very wardens that wear them, this hue of blue is applied to alert denizens of the forest to their presence... as well as being quite readily available to them."
 	color = "#597fb9"
 
 /obj/item/clothing/head/hooded/rainhood/furhood
@@ -835,7 +835,7 @@
 
 /obj/item/clothing/cloak/cape
 	name = "cape"
-	desc = "A beautiful, flowing cape. Too bad it tangles too much on the vegetation."
+	desc = "A beautiful, flowing cape. One must hope it doesn't tangle too much on the vegetation."
 	color = null
 	icon_state = "cape"
 	item_state = "cape"
@@ -854,7 +854,7 @@
 	color = CLOTHING_WHITE
 
 /obj/item/clothing/cloak/cape/guard
-	color = CLOTHING_AZURE
+	color = CLOTHING_BLACK
 
 /obj/item/clothing/cloak/cape/guard/Initialize()
 	. = ..()
@@ -886,7 +886,7 @@
 
 /obj/item/clothing/cloak/cape/inquisitor
 	name = "Inquisitors Cloak"
-	desc = "A time honored cloak Valorian design, used by founding clans of the Valorian Lodge"
+	desc = "A time-honored cloak of Valorian design, used by the founding clans of the Valorian Lodge."
 	icon_state = "inquisitor_cloak"
 	icon = 'icons/roguetown/clothing/cloaks.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
@@ -955,7 +955,7 @@
 
 /obj/item/clothing/cloak/weocilyn
 	name = "red cloak"
-	desc = ""
+	desc = "A red cloak, often seen with the visits of Weocilyn when they would journey to Lyndvhar for visitation. </br> </br> Though, since the war and its dangers, little of them has been seen in Lyndvhar... This one seems to be a bit weathered."
 	icon_state = "heartfelt_cloak"
 	body_parts_covered = CHEST|GROIN|VITALS|ARMS
 	sleeved = 'icons/roguetown/clothing/onmob/cloaks.dmi'
@@ -968,7 +968,7 @@
 
 /obj/item/clothing/cloak/undivided
 	name = "undivided cloak"
-	desc = "The refuge of the TEN upon my back. A Undivided House, standing eternal against the encroaching darkness."
+	desc = "The refuge of the TEN upon my back. An Undivided House, to stand in vigil against the encroaching darkness."
 	icon_state = "seecloak"
 	sleeved = 'icons/roguetown/clothing/onmob/cloaks.dmi'
 	alternate_worn_layer = CLOAK_BEHIND_LAYER
@@ -976,7 +976,7 @@
 
 /obj/item/clothing/cloak/half
 	name = "halfcloak"
-	desc = ""
+	desc = "A cloak, or half of one at least. Should keep... some of one's body covered."
 	color = null
 	icon_state = "halfcloak"
 	alternate_worn_layer = CLOAK_BEHIND_LAYER
@@ -1014,7 +1014,7 @@
 /obj/item/clothing/cloak/half/rider
 	name = "rider cloak"
 	icon_state = "guardcloak"
-	color = CLOTHING_AZURE
+	color = CLOTHING_BLACK
 	allowed_sex = list(MALE, FEMALE)
 	allowed_race = NON_DWARVEN_RACE_TYPES
 	inhand_mod = FALSE
@@ -1025,7 +1025,7 @@
 /obj/item/clothing/cloak/half/vet
 	name = "town watch cloak"
 	icon_state = "guardcloak"
-	color = CLOTHING_AZURE
+	color = CLOTHING_BLACK
 	allowed_sex = list(MALE, FEMALE)
 	allowed_race = NON_DWARVEN_RACE_TYPES
 	inhand_mod = FALSE
@@ -1042,7 +1042,7 @@
 
 /obj/item/clothing/cloak/half/shadowcloak
 	name = "stalker cloak"
-	desc = "A heavy leather cloak held together by a gilded pin, depicting the Viscount's house. The sign of a faithful servant."
+	desc = "A heavy leather cloak held together by a gilded pin, the design on it depicting the Viscount's house. The sign of a faithful servant."
 	icon_state = "shadowcloak"
 	color = null
 	allowed_race = NON_DWARVEN_RACE_TYPES
@@ -1101,7 +1101,7 @@
 
 /obj/item/clothing/cloak/tribal
 	name = "tribal pelt"
-	desc = "A haphazardly cured pelt of a creecher, thrown on top of one's body or armor, to serve as additional protection against the cold. Itchy."
+	desc = "The haphazardly prepared pelt of a creecher, thrown on top of one's body or armor, to serve as additional protection against the cold. Itchy."
 	icon_state = "tribal"
 	alternate_worn_layer = CLOAK_BEHIND_LAYER
 	slot_flags = ITEM_SLOT_BACK_R|ITEM_SLOT_CLOAK
@@ -1143,7 +1143,7 @@
 
 /obj/item/clothing/cloak/battlenun
 	name = "nun vestments"
-	desc = "Chaste, righteous, merciless to the wicked."
+	desc = "Chaste. Righteous. Merciless to the wicked."
 	color = null
 	icon_state = "battlenun"
 	allowed_sex = list(FEMALE)
@@ -1260,7 +1260,7 @@
 
 /obj/item/clothing/neck/roguetown/blkknight
 	name = "dragonscale necklace" //Who the hell put a NECKLACE in the CLOAKS file?
-	desc = "A blacksteel chain, laced through a dozen of the Hoardmaster's golden teeth. Atuned to the beating heart of Psydonia's financial systems, its true strength can only be harnessed by those who covet wealth above all else."
+	desc = "A blacksteel chain, laced through a number of the Gildwyrm's golden teeth and tough scales. Attuned to the beating heart of Beowricke's financial systems, its true strength can only be harnessed by those who covet wealth above all else..."
 	icon_state = "bktrinket"
 	max_integrity = ARMOR_INT_SIDE_IRON //Iron gorget now.
 	armor = ARMOR_PLATE
@@ -1337,7 +1337,7 @@
 /obj/item/clothing/cloak/tabard/stabard/guardhood
 	name = "guard hood"
 	desc = "A hood with the lord's heraldic colors."
-	color = CLOTHING_AZURE
+	color = CLOTHING_BLACK
 	detail_tag = "_spl"
 	slot_flags = ITEM_SLOT_HEAD|ITEM_SLOT_NECK|ITEM_SLOT_MASK|ITEM_SLOT_CLOAK
 	detail_color = CLOTHING_WHITE
@@ -1599,7 +1599,7 @@
 	user.update_inv_armor()
 
 /obj/item/clothing/cloak/banneret
-	name = "cataphract's cape"
+	name = "knight banneret's cape"
 	desc = "A cape with a gold embroided heraldry of Lyndhardt."
 	icon = 'icons/roguetown/clothing/special/captain.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/captain.dmi'

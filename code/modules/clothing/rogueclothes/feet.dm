@@ -168,7 +168,7 @@
 
 /obj/item/clothing/shoes/roguetown/sandals/aalloy
 	name = "decrepit sandals"
-	desc = "Frayed bronze platforms, curled about to cradle the feet. The beaches that these sandals once treaded are no more; pearly sands, long since turnt to glass from the Comet Syon's impact."
+	desc = "Frayed bronze platforms, curled about to cradle the feet. The beaches that these sandals once treaded are no more, every grain of sand that might have been treaded on has washed away and been replaced anew."
 	icon_state = "ancientsandals"
 	color = "#bb9696"
 	prevent_crits = PREVENT_CRITS_NONE
@@ -282,7 +282,7 @@
 
 /obj/item/clothing/shoes/roguetown/boots/armor/gold
 	name = "golden greaves"
-	desc = "Resplendant sabatons of pure gold, adorned with angled greaves that proudly bare the holy sigil. Its besilked cuffs have remained surprisingly bereft of debris - not even a sprig of lint remains to be criticized."
+	desc = "Resplendant sabatons of pure gold, adorned with angled greaves that proudly bare a holy sigil. Its besilked cuffs have remained surprisingly bereft of debris - not even a sprig of lint remains to be criticized."
 	icon_state = "goldgreaves"
 	item_state = "goldgreaves"
 	body_parts_covered = FEET | LEGS
@@ -415,7 +415,7 @@
 	resistance_flags = null
 	sewrepair = TRUE
 	detail_color = CLOTHING_WHITE
-	color = CLOTHING_AZURE
+	color = CLOTHING_BLACK
 
 /obj/item/clothing/shoes/roguetown/jester/update_icon()
 	cut_overlays()
@@ -509,7 +509,7 @@
 
 /obj/item/clothing/shoes/roguetown/boots/blacksteel/plateboots
 	name = "ancient blacksteel plate boots"
-	desc = "Antiquated sabatons, forged from segmented plates of blacksteel. Am I the cancer that is killing this world? Is it my hate, my spite, my lust - that, which poisons the ones around me, and siphons away the hope of Man and God alike? When the last hearth is quenched and Psydonia is nothing more than a shriveled husk, will I still blame the corpses for what I had done? </br>‎  </br>Let go of your hate. Your lyfe is yours, and yours alone to arbitrate."
+	desc = "Antiquated sabatons, forged from segmented plates of blacksteel. </br> </br> Am I the cancer that is killing this world? Is it my hate, my spite, my lust -- that, which poisons the ones around me, and siphons away the hope of Man and God alike? When the last hearth is quenched and Beowricke is nothing more than a shriveled husk, will I still blame the corpses for what I had done? </br>‎  </br>Let go of your hate. Your lyfe is yours, and yours alone to arbitrate."
 	body_parts_covered = FEET
 	icon = 'icons/roguetown/clothing/special/blkknight.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/blkknight.dmi'
