@@ -2,8 +2,7 @@
 	force = 21
 	possible_item_intents = list(/datum/intent/whip/lash, /datum/intent/whip/crack, /datum/intent/whip/punish)
 	name = "whip"
-	desc = "A leather whip, tipped with a flintknapped stone. Though intended to shepherd \
-	unruly livestock, the tip's jagged points also suffice at leaving assailants with horrific lacerations."
+	desc = "A leather whip with a unassuming appearance. The speed at which a talented user can -- for lack of a better term -- whip it at a target is frightening, not to mention the effect it has on bare flesh..."
 	icon_state = "whip"
 	icon = 'icons/roguetown/weapons/whips32.dmi'
 	sharpness = IS_BLUNT
@@ -195,7 +194,7 @@
 
 /obj/item/rogueweapon/whip/bronze
 	name = "bronze whip"
-	desc = "A heavy whip, corded from thick leather and adorned with a razor-sharp bronzehead. In ancient tymes, this shepherd's weapon once repelled the gnashing teeth of bloodthirsty nitebeasts: now, it seperates limb-from-trunk with thunderous claps. </br>Holding this whip imbues you with determination.. and a rather odd hankering for turkey dinners."
+	desc = "A heavy whip, corded from thick leather and adorned with a razor-sharp bronzehead. In ancient tymes, this weapon once repelled the gnashing teeth of bloodthirsty nitebeasts: now, it seperates limb-from-trunk with thunderous claps. </br>Holding this whip imbues you with determination.. and a rather odd hankering for turkey dinners."
 	icon_state = "bronzewhip"
 	force = 21 //Same damage as the leathers.
 	minstr = 13 //Dodgemasters need-not apply. Intended for the 'Belmont'-esque archetype of Barbarians, and greatly punishes those who would try and take it for the sake of non-thematic cheesing.
